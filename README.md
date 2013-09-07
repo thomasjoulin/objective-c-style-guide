@@ -54,7 +54,9 @@ UIApplication.sharedApplication.delegate;
 
 * Indent using 4 spaces. Never indent with tabs. Be sure to set this preference in Xcode.
 * Braces are always on their own line.
-* There is always a space after keywords (`if`, `while`, `for`, `return`)
+* There is always a space after keywords (`if`, `while`, `for`, `return`) and `=`, `,`, `>` etc...
+* There is no space before `;` and one after (`for (i = 0; i < 42; i++)`)
+* There is no space between parenthesis or before a method name
 
 **For example:**
 ```objc
